@@ -1,0 +1,513 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+.firstBanner {
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 50px;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 40px;
+    margin-top: 80px;
+}
+
+
+
+.sparkFirstBannerImage {
+    width: 500px;
+    height: 500px;
+    margin-top: -60px;
+}
+
+.firstBanner>div {
+    font-size: 17.2px;
+}
+
+.firstBanner>div h1 {
+    color: #145daa;
+    width: 90%;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.firstBanner>div h4 {
+    color: #274d75a6;
+    width: 60%;
+    font-weight: 900;
+    margin-bottom: 40px;
+}
+
+.firstBanner>div p {
+    color: #07070777;
+    font-weight: 500px;
+}
+
+.firstBanner>div button {
+    margin: 0;
+    margin-top: 15px;
+}
+
+
+.heading {
+    text-align: center;
+    background: linear-gradient(180deg, rgba(186, 44, 191, 0.827) 0%, rgba(32, 95, 161, 0.87) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-size: 70px;
+    font-weight: 300;
+    margin-top: 80px;
+}
+
+
+
+
+/* ///////CARD FEATURES///////// */
+:root {
+    --backgroundImage: url(./images/backgroundImage.png)
+}
+
+.card_features {
+    margin-top: 100px;
+}
+
+
+.featuresDiv {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-top: 50px;
+    gap: 40px;
+    padding: 70px 60px;
+
+    background-image: var(--backgroundImage);
+    background-repeat: no-repeat;
+
+    border-radius: 40px;
+
+}
+
+.featuresDiv img {
+    width: 100px;
+    height: 90px;
+}
+
+
+
+.featuresDiv>div {
+    display: flex;
+    gap: 20px;
+    padding: 30px 20px;
+    font-size: 14px;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.534);
+}
+
+.featuresDiv>div>.someText {
+    display: grid;
+    gap: 20px;
+}
+
+.featuresDiv h4 {
+    color: rgba(18, 55, 102, 0.753);
+    font-size: 18px;
+}
+
+.featuresDiv p {
+    color: gray;
+}
+
+.joinTheWaitListbutton {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    padding: 12px 20px;
+    font-size: 20px;
+    border-radius: 10px;
+    background-color: rgba(37, 134, 238, 0.945);
+    border: none;
+    color: rgb(195, 253, 255);
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.75) 0px 2px 5px;
+    transition: 0.2s;
+}
+
+.joinTheWaitListbutton:hover {
+    border: none;
+    background-color: rgba(26, 99, 176, 0.946);
+}
+
+
+/* ///////CARD FEATURES END///////// */
+
+
+
+
+
+
+
+
+
+/* /////////YOUR TEAM /////////// */
+
+.yourTeam {
+    width: 65%;
+    margin: auto;
+    margin-top: 60px;
+}
+
+.yourTeam>div {
+    padding: 30px 40px;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    /* background-color: rgba(55, 192, 210, 0.274); */
+    margin-bottom: 30px;
+    /* box-shadow: rgba(0, 0, 0, 0.37) 0px 1px 8px;
+    border-radius: 40px; */
+}
+
+.yourTeam img {
+    width: 40%;
+    height: 100%;
+    border-radius: 20px;
+    opacity: 80%;
+    box-shadow: rgba(0, 0, 0, 0.445) 0px 3px 8px;
+
+}
+
+.yourTeam>div>div {
+    font-size: 17px;
+}
+
+.yourTeam>div>div p {
+    margin-top: 20px;
+    width: 95%;
+    font-size: 22px;
+    color: #727272c5;
+}
+
+.yourTeam>div>div h1 {
+    color: #058CB7;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+
+
+
+/* //////////// Our partner ///////// */
+
+.ourPartners {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.ourPartners h1 {
+    text-align: center;
+    color: #145daa;
+    margin-bottom: 20px;
+    font-size: 80px;
+}
+
+.ourPartners>div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.ourPartners>div img {
+    margin-top: 50px;
+    margin-bottom: 60px;
+    width: 150px;
+    height: 90px;
+    margin: auto;
+}
+
+
+.saveTimeSaveMoney {
+    display: flex;
+    padding: 10px 50px;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    background-color: #DDF3F6;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin-top: 100px;
+}
+
+.saveTimeSaveMoney h1 {
+    color: #26b4ec;
+    font-size: 55px;
+    margin-bottom: 50px;
+}
+
+.saveTimeSaveMoney h1>span {
+    color: #157aa1;
+}
+
+.saveTimeSaveMoney img {
+    width: 50%;
+    height: 100%;
+}
+
+.saveTimeSaveMoney button {
+    margin: 0;
+}
+
+
+
+
+
+
+
+/* ////////////////////////////// RESPONSIVE ////////////////////////////////////// */
+
+
+
+@media all and (min-width: 651px) and (max-width:1118px) {
+
+    .firstBanner {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-bottom: 50px;
+        gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 40px;
+        margin-top: 100px;
+    }
+
+    .firstBanner>div h1 {
+        color: #145daa;
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+    
+    .firstBanner>div h4 {
+        color: #274d75a6;
+        width: 75%;
+        font-weight: 900;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    
+    .firstBanner>div p {
+        color: #07070777;
+        font-weight: 500px;
+        font-size: 15px;
+    }
+
+    .sparkFirstBannerImage {
+        width: 350px;
+        height: 350px;
+        /* margin-top: -60px; */
+        margin: auto;
+    }
+
+    .featuresDiv {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .featuresDiv img {
+        width: 100px;
+        height: 90px;
+    }
+
+
+    .yourTeam>div {
+        display: grid;
+        text-align: center;
+    }
+
+    .yourTeam img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .saveTimeSaveMoney {
+        display: grid;
+        padding: 50px 40px;
+        margin-top: 70px;
+    }
+
+    .saveTimeSaveMoney h1,
+    span {
+        font-size: 50px;
+        width: 400px;
+    }
+
+    .saveTimeSaveMoney img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+}
+
+
+
+
+
+
+
+@media all and (min-width: 260px) and (max-width:650px) {
+
+    .firstBanner {
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        margin-bottom: 50px;
+        gap: 40px;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 40px;
+        margin-top: 100px;
+    }
+
+    .firstBanner>div h1 {
+        color: #145daa;
+        width: 100%;
+        font-size: 25px;
+        margin-bottom: 20px;
+        font-weight: 900;
+    }
+    
+    .firstBanner>div h4 {
+        color: #274d75a6;
+        width: 100%;
+        font-weight: 900;
+        margin-bottom: 40px;
+        font-size: 17px;
+    }
+    
+    .firstBanner>div p {
+        color: #07070777;
+        font-weight: 500px;
+        font-size: 15px;
+    }
+
+
+    .sparkFirstBannerImage {
+        width: 270px;
+        height: 270px;
+        margin: auto;
+        margin-top: -60px;
+    }
+
+    .featuresDiv {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .featuresDiv img {
+        width: 100px;
+        height: 90px;
+    }
+
+    .yourTeam>div {
+        display: grid;
+    }
+
+    .yourTeam img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+
+    .yourTeam div>div {
+        text-align: center;
+    }
+
+
+    .saveTimeSaveMoney {
+        display: grid;
+        padding: 50px 40px;
+        width: 90%;
+        margin: auto;
+        margin-top: 60px;
+    }
+
+    .saveTimeSaveMoney h1,
+    span {
+        font-size: 40px;
+        width: 300px;
+    }
+
+    .saveTimeSaveMoney img {
+        width: 100%;
+        height: 100%;
+        margin: auto;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* //////////////Form Pop up ?//////////////// */
+
+
+.popupContent>div {
+    display: grid;
+    width: 50%;
+    margin-bottom: 12px;
+}
+
+.popupContent input {
+    height: 30px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding-left: 12px;
+}
+
+.popupButton {
+    padding: 10px 20px;
+    background-color: rgba(37, 134, 238, 0.945);
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.popupButton:hover {
+    background-color: #058CB7;
+}

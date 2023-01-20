@@ -1,0 +1,91 @@
+.main{
+    padding: 40px 60px;
+    width: 430px;
+    gap: 20px;
+    margin: auto;
+    background-color: #ffffff;
+    /* color: gray; */
+    margin-top: 40px;
+    margin-bottom: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+    border-radius: 40px;
+}
+
+
+.topSection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: rgba(70, 70, 70, 0.74);
+    
+}
+
+.headings{
+    margin-top: 60px;
+}
+
+.logo{
+    width: 45px;
+}
+
+.headings h1{
+    color: rgb(0, 119, 255);
+}
+
+.headings h3{
+    margin-top: 10px;
+    color: #9c9c9c;
+    font-weight: 400;
+}
+
+.formDiv{
+    display: grid;
+    gap: 20px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.topSection span a{
+    color: rgb(0, 119, 255);
+}
+
+.topSection span a:hover{
+    color: rgb(119, 183, 255);
+}
+
+.passwords{
+    display: flex;
+    justify-content: space-between;
+}
+
+.button{
+    width: 250px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    background-color: #0077ff;
+    padding: 15px 10px;
+    border: none;
+    color: white;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    transition: all 0.1s ease-in;
+}
+.button:hover{
+    background-color: #013d81;
+}
+
+.termsAndCondition{
+    margin-top: 50px;
+    color: gray;
+    margin-bottom: 30px;
+}
+
+.termsAndCondition span{
+    color: rgba(0, 0, 0, 0.877);
+    font-weight: 600;
+    font-size: 17px;
+}

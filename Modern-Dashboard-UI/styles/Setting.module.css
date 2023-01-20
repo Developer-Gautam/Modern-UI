@@ -1,0 +1,32 @@
+.settings{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.firstBox>div{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 30px;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: #30b5e95b;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.firstBox>div>div>div{
+    margin-top: 10px;
+}
+
+.firstBox h3{
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.firstBox h2{
+    font-size: 19px;
+    font-weight: 600;
+    color: rgb(58, 58, 58);
+}

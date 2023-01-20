@@ -1,0 +1,38 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: rgba(37, 117, 238, 0.932);
+
+    color: white;
+    margin-top: 100px;
+    padding: 5px 50px;
+    font-weight: 300;
+}
+
+
+.footerMenu {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+    font-weight: 400;
+}
+
+.footerMenu a {
+    color: rgba(255, 255, 255, 0.692);
+}
+
+.footerMenu a:hover {
+    color: rgba(41, 187, 255, 0.836);
+}
+
+.main {
+    color: rgba(255, 255, 255, 0.63);
+    font-size: 15px;
+}
+
+.sparkCard {
+    width: 30%;
+    height: 100%;
+}
